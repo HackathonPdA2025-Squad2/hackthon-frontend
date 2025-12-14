@@ -18,8 +18,8 @@ export default function HomePag() {
         </p>
 
         <section className="flex flex-col justify-center items-center pt-9 gap-2.5 bg-gray-300">
-          <button className="bg-blue-700 text-gray-300 p-2 w-80 mr-3.5 ml-3.5">Criar conta</button>
-          <button className="text-blue-700 p-2 border border-blue-600 w-80 mr-3.5 ml-3.5">Já tenho conta</button>
+          <Link href="/" className="bg-blue-700 text-gray-300 p-2 w-80 mr-3.5 ml-3.5 text-center cursor-pointer">Criar conta</Link>
+          <Link href="/" className="text-blue-700 p-2 border border-blue-600 w-80 mr-3.5 ml-3.5 text-center cursor-pointer">Já tenho conta</Link>
         </section>
       </main>
     </>
